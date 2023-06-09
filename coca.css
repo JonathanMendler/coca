@@ -1,0 +1,219 @@
+html,
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #4f4d4d;
+}
+
+.active {
+  background-color: #eb8627;
+}
+
+.parallax-1 {
+  width: 100%;
+  height: 800px;
+  background: url('https://lh3.googleusercontent.com/pw/AJFCJaWfGtFetizEOQtLrqNPUsuH-uqWQauSPs95y5MyMw_f7RYsMfF14tL4U49HYPmYZBdkZqBnyejO4nnyNfmI631lvt--YSDchGRYR-eie2Geq9mf4QDLK0pzBWV4lUlAO0f3TVmPidVRuIba1qftuDxG=w1920-h1097-s-no?authuser=0');
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.parallax-1 h2 {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: fit-content;
+  height: 32px;
+  rotate: 340deg;
+  padding: 10px;
+  color: rgb(235, 134, 39);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 46px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.parallax-2 {
+  width: 100%;
+  height: 800px;
+  background: url('https://www.rollingstone.com/wp-content/uploads/2018/08/Coheed-and-Cambria-New-Pub-2-2018-Jimmy-Fontaine-lo.jpg?w=1581&h=1054&crop=1');
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.parallax-2 h2 {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: fit-content;
+  height: 32px;
+  rotate: 340deg;
+  padding: 10px;
+  color: rgb(235, 134, 39);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 46px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.parallax-3 {
+  width: 100%;
+  height: 800px;
+  background: url('https://pbs.twimg.com/media/D3GWyr-UwAAMKDi?format=jpg&name=4096x4096');
+  background-size: 100%;
+  background-position-x: right;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+.parallax-3 h2 {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: fit-content;
+  height: 32px;
+  rotate: 340deg;
+  padding: 10px;
+  color: rgb(235, 134, 39);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 46px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.parallax-4 {
+  width: 100%;
+  height: 800px;
+  background: url('https://i.pinimg.com/originals/b9/b5/51/b9b551606f75a54b5e9074030c94b861.jpg');
+  background-size: 100%;
+  background-position-x: right;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+.parallax-4 h2 {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: fit-content;
+  height: 32px;
+  rotate: 340deg;
+  padding: 10px;
+  color: rgb(235, 134, 39);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 46px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.parallax-5 {
+  width: 100%;
+  height: 800px;
+  background: url('http://www.nathanspoor.com/images/gravitys-union-rgb.jpg');
+  background-size: 100%;
+  background-position-x: right;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+.parallax-5 h2 {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: fit-content;
+  height: 32px;
+  rotate: 340deg;
+  padding: 10px;
+  color: rgb(235, 134, 39);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 46px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.parallax-6 {
+  width: 100%;
+  height: 800px;
+  background: url('https://www.thepaviliontmf.com/wp-content/uploads/2019/02/0703_Coheed_PIMF_1600x900.jpg');
+  background-size: 100%;
+  background-position-x: right;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+.parallax-6 h2 {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: fit-content;
+  height: 32px;
+  rotate: 340deg;
+  padding: 10px;
+  color: rgb(235, 134, 39);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 46px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.para {
+  text-align: center;
+  padding: 25px;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:link {
+  color: #38afcf;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #eb8627;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0db6a9;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #462268;
+  background-color: transparent;
+  text-decoration: underline;
+}
